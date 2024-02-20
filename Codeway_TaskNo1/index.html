@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+<style>
+:root {
+--primary-color: #34568B;
+--secondary-color: #FF6F61;
+--background-color: #F7F7F7;
+--text-color: #333;
+--font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bio-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid var(--secondary-color);
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 5px;
+}
+
+.skills-list, .projects-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li, .projects-list li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.project-item {
+    margin-bottom: 20px;
+}
+
+.project-image {
+    width: 700px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ravi Boddapati</h1>
+        <p>Web Developer | AI Enthusiast</p>
+    </header>
+    
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="./myphoto.jpg" alt="Ravi Boddapati" class="bio-photo">
+            <p>Hello! My name is Ravi Boddapati, and I am currently in my second year of pursuing a Bachelor of Technology degree in Computer Science and Engineering, with a specialization in Artificial Intelligence and Machine Learning, at Vishnu Institute of Technology in Bhimavaram. Originally from Rajahmundry, I have always been fascinated by the complexities and innovations within the realm of technology. <br><br>
+
+                Despite the personal loss of my father, B. Ramana, my mother, B. Satyavathi, has been a constant source of inspiration and support in my life. This familial strength propels me forward in my journey to explore and conquer the vast field of technology. <br><br>
+                
+                As a web developer, I am deeply passionate about creating and innovating on the web. My curiosity drives me to continuously learn and adopt new technologies, further enhancing my skills and abilities in web development. I believe in the power of technology to transform and improve our lives, and I am committed to contributing positively to this field. <br><br>
+                
+                If you wish to connect or collaborate, feel free to reach out to me via email at 22pa1a4214@vishnu.edu.in or give me a call at 9010076453. I am always open to discussing new projects, ideas, or simply engaging in conversations about the ever-evolving world of technology.</p>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Matlab</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+        
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h4>Portfolio Website</h4>
+                <img src="./project banner.jpg" alt="Project 1" class="project-image">
+                <p>This project is a simple portfolio website designed to showcase my skills and projects. It features a <br> clean, modern design and is fully responsive.</p>
+                <h5>and not done any innovative projects yet..</h5>
+            </div>
+        </section>
+        
+        <section id="resume">
+            <h2>Resume</h2>
+            <p><a href="./RESUME(Ravi).docx" download>Download My Resume</a></p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:22pa1a4214@vishnu.edu.in">22pa1a4214@vishnu.edu.in</a></p>
+            <p>Phone: <a href="tel:+9010076453">9010076453</a></p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Ravi Boddapati. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
